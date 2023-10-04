@@ -450,7 +450,7 @@ const Nayeon = () => {
                 Nayeon has an adorable light with white-golden haired sunny ☀️
                 pomeranian named Kookeu
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8">
+              <div className="flex flex-row items-center justify-center gap-x-8 mt-2">
                 <Image
                   src={"/Nayeon/kookeu.jpeg"}
                   alt="logan"

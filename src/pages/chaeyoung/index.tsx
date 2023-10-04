@@ -306,7 +306,7 @@ const Chaeyoung = () => {
                 Chaeyoung has 2 dogs, one named Logan and the other named
                 Nereri.
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8">
+              <div className="flex flex-row items-center justify-center gap-x-8 mt-2">
                 <Image
                   src={"/Chaeyoung/logan.jpeg"}
                   alt="logan"

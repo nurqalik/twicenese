@@ -325,7 +325,7 @@ const Jeongyeon = () => {
                 white pomeranian 🤍, Nanan is a member of the Puddle family and
                 Bami a Scottish Fold 🏴󠁧󠁢󠁳󠁣󠁴󠁿🐱
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8">
+              <div className="flex flex-row items-center justify-center gap-x-8 mt-2">
                 <Image
                   src={"/Jeongyeon/bbosong.jpeg"}
                   alt="logan"

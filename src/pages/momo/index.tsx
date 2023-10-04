@@ -234,7 +234,7 @@ const Momo = () => {
                 and a main dancer in Twice. In October 2015, Twice made their
                 debut with the single &quot;Ooh-Aah&quot;, and rose to the title
                 of &apos;The Nation&apos;s Girl Group&apos;.
-                <br />
+                <br /><br />
                 <span>
                   {" "}
                   In the fall of 2016, Super Junior&apos;s Kim Hee-chul and Buzz
@@ -404,7 +404,7 @@ const Momo = () => {
                 Both Boo and Dobby are Norwich Terriers 😊 and live in
                 TWICE&apos;s dorm ❤️
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8">
+              <div className="flex flex-row items-center justify-center gap-x-8 mt-2">
                 <Image
                   src={"/Momo/lucky.jpeg"}
                   alt="logan"

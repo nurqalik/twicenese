@@ -310,7 +310,7 @@ const Mina = () => {
                 this is the caption and photo in 2016 for Ray&apos;s 10th bday
                 🎂
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8">
+              <div className="flex flex-row items-center justify-center gap-x-8 mt-2">
                 <Image
                   src={"/Mina/ray.jpeg"}
                   alt="logan"

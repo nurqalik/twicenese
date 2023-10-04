@@ -377,7 +377,7 @@ const Jihyo = () => {
               <p className="font-roboto text-sm font-light">
                 Jihyo doesn&apos;t appear to have any pets of her own
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8"></div>
+              <div className="flex flex-row items-center justify-center gap-x-8 mt-2"></div>
             </div>
             <div className="mt-24 flex flex-col gap-y-2" id="funfacts">
               <div className="mb-4 font-montserrat text-3xl font-bold">

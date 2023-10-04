@@ -274,7 +274,9 @@ const Tzuyu = () => {
                 Discography
               </div>
               <div className="flex flex-col gap-y-4">
-                <div className="flex flex-col gap-y-2"></div>
+                <div className="flex flex-col gap-y-2">
+                Tzuyu doesn&apos;t appear to have any discography of her
+                </div>
               </div>
             </div>
             <div className="mt-24 flex flex-col gap-y-2" id="pets">
@@ -286,7 +288,7 @@ const Tzuyu = () => {
                 appearance while Butter 🧈 is lighter due to its skin looking
                 like “butter”.
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8">
+              <div className="flex flex-row items-center justify-center gap-x-8 mt-2">
                 <Image
                   src={"/Tzuyu/kayabutter.jpeg"}
                   alt="logan"

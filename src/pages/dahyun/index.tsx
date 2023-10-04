@@ -324,7 +324,7 @@ const Dahyun = () => {
               <p className="font-roboto text-sm font-light">
                 Dahyun has a cute lil maltese breed dog named Ari~
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8">
+              <div className="flex flex-row items-center justify-center gap-x-8 mt-2">
                 <Image
                   src={"/Dahyun/ari.jpeg"}
                   alt="logan"
