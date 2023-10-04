@@ -27,7 +27,9 @@ const SideNav = () => {
               <a href="#credits">7. Credits</a>
             </div>
           </div>
-          <div className="font-montserrat font-thin text-xs">Roe &copy;2023</div>
+          <div className="font-montserrat text-xs font-thin">
+            Roe &copy;2023
+          </div>
         </div>
       </div>
     </>
