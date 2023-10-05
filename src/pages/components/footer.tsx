@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <div className="h-full w-full" id="credits">
+      <div className="h-full w-full section" id="credits">
         <div className="my-8 rounded-xl bg-[#ded7cd]">
           <div className="flex flex-col">
             <div className="mt-8 font-montserrat text-xl font-semibold">

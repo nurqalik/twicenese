@@ -70,7 +70,7 @@ const Jihyo = () => {
             className="h-[480px] w-[720px] rounded-xl object-cover object-left"
           />
           <div
-            className="flex flex-col items-center justify-center gap-y-4 text-center"
+            className="flex flex-col items-center justify-center gap-y-4 text-center section"
             id="bio"
           >
             <div className="font-montserrat text-3xl font-bold">Jihyo</div>
@@ -181,7 +181,7 @@ const Jihyo = () => {
                 </tr>
               </tbody>
             </table>
-            <div className="mt-24 flex flex-col gap-y-4" id="career">
+            <div className="mt-40 flex flex-col gap-y-4 section" id="career">
               <div className="font-montserrat text-3xl font-bold">
                 Life and career
               </div>
@@ -235,7 +235,7 @@ const Jihyo = () => {
                 <br />
               </p>
             </div>
-            <div className="mt-24 flex flex-col" id="filmograph">
+            <div className="mt-40 flex flex-col section" id="filmograph">
               <div className="mb-4 font-montserrat text-3xl font-bold">
                 Filmography
               </div>
@@ -267,7 +267,7 @@ const Jihyo = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-24 flex flex-col" id="discograph">
+            <div className="mt-40 flex flex-col section" id="discograph">
               <div className="mb-4 font-montserrat text-3xl font-bold">
                 Discography
               </div>
@@ -370,7 +370,7 @@ const Jihyo = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-24 flex flex-col gap-y-2" id="pets">
+            <div className="mt-40 flex flex-col gap-y-2 section" id="pets">
               <div className="mb-4 font-montserrat text-3xl font-bold">
                 Pets
               </div>
@@ -379,7 +379,7 @@ const Jihyo = () => {
               </p>
               <div className="flex flex-row items-center justify-center gap-x-8 mt-2"></div>
             </div>
-            <div className="mt-24 flex flex-col gap-y-2" id="funfacts">
+            <div className="mt-40 flex flex-col gap-y-2 section" id="funfacts">
               <div className="mb-4 font-montserrat text-3xl font-bold">
                 Fun Facts
               </div>

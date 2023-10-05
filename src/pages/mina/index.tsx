@@ -69,7 +69,7 @@ const Mina = () => {
             className="h-[480px] w-[720px] rounded-xl object-cover object-left"
           />
           <div
-            className="flex flex-col items-center justify-center gap-y-4 text-center"
+            className="flex flex-col items-center justify-center gap-y-4 text-center section"
             id="bio"
           >
             <div className="font-montserrat text-3xl font-bold">Mina</div>
@@ -178,7 +178,7 @@ const Mina = () => {
                 </tr>
               </tbody>
             </table>
-            <div className="mt-24 flex flex-col gap-y-4" id="career">
+            <div className="mt-40 flex flex-col gap-y-4 section" id="career">
               <div className="font-montserrat text-3xl font-bold">
                 Life and career
               </div>
@@ -203,7 +203,7 @@ const Mina = () => {
                 </span>
               </p>
             </div>
-            <div className="mt-24 flex flex-col" id="filmograph">
+            <div className="mt-40 flex flex-col section" id="filmograph">
               <div className="mb-4 font-montserrat text-3xl font-bold">
                 Filmography
               </div>
@@ -253,7 +253,7 @@ const Mina = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-24 flex flex-col" id="discograph">
+            <div className="mt-40 flex flex-col section" id="discograph">
               <div className="mb-4 font-montserrat text-3xl font-bold">
                 Discography
               </div>
@@ -301,7 +301,7 @@ const Mina = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-24 flex flex-col gap-y-2" id="pets">
+            <div className="mt-40 flex flex-col gap-y-2 section" id="pets">
               <div className="mb-4 font-montserrat text-3xl font-bold">
                 Pets
               </div>
@@ -317,11 +317,11 @@ const Mina = () => {
                   width={0}
                   height={0}
                   sizes="100"
-                  className="h-48 w-48 rounded-xl object-cover"
+                  className="h-64 w-64 rounded-xl object-cover"
                 />
               </div>
             </div>
-            <div className="mt-24 flex flex-col gap-y-2" id="funfacts">
+            <div className="mt-40 flex flex-col gap-y-2 section" id="funfacts">
               <div className="mb-4 font-montserrat text-3xl font-bold">
                 Fun Facts
               </div>
