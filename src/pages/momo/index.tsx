@@ -44,7 +44,7 @@ const funfact: Array<string> = [
 const Momo = () => {
   return (
     <div className="flex">
-      <div className="mb-24 mt-10 flex h-full w-full items-center justify-center overflow-y-auto px-24">
+      <div className="mb-24 mt-10 flex h-full w-full items-center justify-center overflow-y-auto px-16 md:px-24">
         <div className="flex flex-col items-center justify-center gap-y-4">
           <Link href={"/"}>
             <Image
@@ -62,7 +62,7 @@ const Momo = () => {
             width={0}
             height={0}
             sizes="100"
-            className="h-[480px] w-[720px] rounded-xl object-cover"
+            className="h-40 w-auto md:h-[480px] md:w-[720px] rounded-xl object-cover"
           />
           <div
             className="flex flex-col items-center justify-center gap-y-4 text-center section"
@@ -170,7 +170,7 @@ const Momo = () => {
                       width={0}
                       height={0}
                       sizes="100"
-                      className="h-[216px] w-[344px]"
+                      className="h-24 w-auto md:h-[216px] md:w-[344px]"
                     />
                   </td>
                 </tr>
@@ -404,7 +404,7 @@ const Momo = () => {
                 Both Boo and Dobby are Norwich Terriers 😊 and live in
                 TWICE&apos;s dorm ❤️
               </p>
-              <div className="flex flex-row items-center justify-center gap-x-8 mt-2">
+              <div className="flex flex-col md:flex-row items-center justify-center gap-x-8 gap-y-6 mt-2">
                 <Image
                   src={"/Momo/lucky.jpeg"}
                   alt="logan"

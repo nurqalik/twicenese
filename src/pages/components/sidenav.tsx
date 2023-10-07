@@ -33,7 +33,7 @@ const SideNav = () => {
   return (
     <>
       {/* Sidebar */}
-      <div className="flex">
+      <div className="hidden md:flex">
         <div className="z-100 sticky top-0 flex h-screen w-48 flex-col overflow-y-auto px-4 py-8">
           <div className="mt-6 flex h-full flex-col items-start justify-center gap-y-4 font-montserrat text-sm font-light">
             <div>

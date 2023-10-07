@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <div className="h-full w-full section" id="credits">
         <div className="my-8 rounded-xl bg-[#ded7cd]">
-          <div className="flex flex-col">
+          <div className="flex flex-col m-12 md:m-0">
             <div className="mt-8 font-montserrat text-xl font-semibold">
               Credits
             </div>

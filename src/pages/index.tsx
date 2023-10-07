@@ -1,5 +1,61 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from 'swiper/modules';
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 import Image from "next/image";
 import Link from "next/link";
+
+const twice = [
+  {
+    name: "Nayeon",
+    image: "/Twicenese/NY.png",
+    href: "/nayeon",
+  },
+  {
+    name: "Jeongyeon",
+    image: "/Twicenese/JY.png",
+    href: "/jeongyeon",
+  },
+  {
+    name: "Momo",
+    image: "/Twicenese/MM.png",
+    href: "/momo",
+  },
+  {
+    name: "Sana",
+    image: "/Twicenese/SN.png",
+    href: "/sana",
+  },
+  {
+    name: "Jihyo",
+    image: "/Twicenese/JH.png",
+    href: "/jihyo",
+  },
+  {
+    name: "Mina",
+    image: "/Twicenese/MN.png",
+    href: "/mina",
+  },
+  {
+    name: "Dahyun",
+    image: "/Twicenese/DH.png",
+    href: "/dahyun",
+  },
+  {
+    name: "Chaeyoung",
+    image: "/Twicenese/CY.png",
+    href: "/chaeyoung",
+  },
+  {
+    name: "Tzuyu",
+    image: "/Twicenese/TZ.png",
+    href: "/tzuyu",
+  },
+  
+]
 
 export default function Home() {
   return (
@@ -11,14 +67,45 @@ export default function Home() {
           width={0}
           height={0}
           sizes="100"
-          className="h-[100vh] w-full object-cover"
+          className="hidden md:flex h-[100vh] w-full object-cover"
+        />
+        <Image
+          src={"/Twicenese/BG3.png"}
+          alt=""
+          width={0}
+          height={0}
+          sizes="100"
+          className="flex md:hidden h-[100vh] w-full object-cover object-bottom"
         />
         <div
-          className="absolute bottom-0 left-0 right-0 top-0 flex h-full w-full items-center justify-center overflow-hidden bg-fixed"
+          className="absolute bottom-0 left-0 right-0 top-0 flex h-full w-full md:items-center md:justify-center overflow-hidden bg-fixed"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
         >
+            <Swiper
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: true
+            }}
+            pagination={{clickable: true, dynamicBullets: true}}
+            modules={[Pagination, Autoplay]}
+            loop={true}
+            
+            className="flex md:hidden relative top-40 h-[285px]">
+              {twice.map((person, index) => {
+                return(
+                  <>
+                  <SwiperSlide key={index}>
+                    <div className="md:hidden font-montserrat text-lg font-thin text-center mb-4 text-white">{person.name}</div>
+                    <Link href={person.href} className="flex items-center justify-center">
+                      <Image src={person.image} alt="" width={0} height={0} sizes="100" className="md:hidden w-auto h-48 mb-14"/>
+                    </Link>
+                  </SwiperSlide>
+                  </>
+                )
+              })}
+            </Swiper>
           <div
-            className="relative h-[317px] w-[58%] overflow-hidden rounded-2xl bg-contain bg-no-repeat text-center"
+            className="hidden md:flex absolute h-[317px] w-[58%] overflow-hidden rounded-2xl bg-contain bg-no-repeat text-center"
             style={{ backgroundImage: `url('/Twicenese/BG2.jpg')` }}
           >
             <Link href={"/jeongyeon"}>
@@ -112,6 +199,8 @@ export default function Home() {
               />
             </Link>
           </div>
+            <Image src={'/logo/dark.png'} alt="" width={0} height={0} sizes="100" className="md:hidden w-8 h-8 absolute top-28 left-[200px]" />
+            <div className="font-montserrat font-light text-sm absolute bottom-0 text-white md:hidden left-[175px]">&copy;Roe 2023</div>
         </div>
       </div>
     </>
