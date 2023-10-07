@@ -199,8 +199,8 @@ export default function Home() {
               />
             </Link>
           </div>
-            <Image src={'/logo/dark.png'} alt="" width={0} height={0} sizes="100" className="md:hidden w-8 h-8 absolute top-28 left-[50%]" />
-            <div className="font-montserrat font-light text-sm absolute bottom-0 text-white md:hidden left-[50%]">&copy;Roe 2023</div>
+            <Image src={'/logo/dark.png'} alt="" width={0} height={0} sizes="100" className="md:hidden w-8 h-8 absolute top-28 left-[46%]" />
+            <div className="font-montserrat font-light text-sm absolute bottom-0 text-white md:hidden left-[42%]">&copy;Roe 2023</div>
         </div>
       </div>
     </>
